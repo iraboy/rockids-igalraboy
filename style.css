@@ -1,0 +1,101 @@
+a{
+    display: inline-block;
+    background-color:#664300;
+    color: #efb810;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(to left, #efb810), #664300;
+}
+h1{
+    color:#efb810;
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    color: #664300;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    color: #3d2c00;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+a.boton{
+    color: #a87b05;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+p{
+    color: #00003e;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    background-color: #efb810;
+}
+
+footer{
+    color: white;
+    padding: 40px;
+    background-color: #664300;
+    background-image: linear-gradient(to left, #664300, #efb810);
+}
+
+.contenedor{ 
+    width: 100%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.personacolumna{
+    margin: 5px;
+}
+
+.nosotros{
+    color: #00003e;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: #efb810;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+}
+
+@media screen and (max-width: 728px)
+{
+    .contenedor{
+        grid-template-columns: repeat(3,32%);
+    }
+}
+
+@media screen and (max-width: 520px)
+{
+    .contenedor{
+        grid-template-columns: repeat(2,48%);
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    .contenedor{
+        grid-template-columns: repeat(1,97%);
+    }
+}
